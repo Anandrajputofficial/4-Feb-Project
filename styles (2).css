@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+body{
+  /* background-color: aqua; */
+  margin: 3%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: space-evenly;
+  /* margin: 3%; */
+}
+.bigimage{
+  width: 70px;
+  height: 40px;
+}
+nav div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav div ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+nav div ul li{
+  justify-content: space-around;
+  gap: 40px;
+  list-style: none;
+  font-weight: 500;
+}
+#herobutton{
+  float: right;
+  margin-left: 200px;
+  background-color: rgb(16, 92, 215);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* hero tag */
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 3%;
+  margin-left: 40px;
+  padding: 40px;
+}
+.main-hero2 h1{
+  /* display: flex; */
+  margin-bottom: 20px;
+  font-size: 80px;
+  color: rgba(125, 62, 185, 0.593);  
+}
+.main-hero2 h1>span{
+  color: rgba(34, 81, 157, 0.64);
+}
+.main-hero2 p{
+  margin-right: 40px;
+}
+#herobutton2{
+  float: left;
+  margin-left: 10px;
+  background-color: rgb(16, 92, 215);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.main-imgage{
+margin-top: 70px;
+margin-right: 70px;
+padding-right: 20px;
+}
